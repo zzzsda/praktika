@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/choices.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script defer src="js/choices.min.js"></script>
+    <script defer src="js/script.js"></script>
+    <title>Хамраев Иср19-2к</title>
+
+    <link rel="shortcut icon" href="img/123321.png" type="image/x-icon">
+
+    <link rel="preload" href="fonts/SFUIText-Light.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/SFUIText-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/SFUIText-Medium.woff2" as="font" type="font/woff2" crossorigin>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header_container">
+                <img src="img\123321.svg" alt="logo" class="geader_logo">
+                <nav class="HEADER_NAVIGATION navigation">
+                    <ul class="navigation_list">
+                        <li class="navigation_item"><a href="#">Оформить заказ</a></li>
+                        <li class="navigation_item"><a href="#">Доставка</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <selection class="main_selection offer">
+            <div class="container">
+                <div class="offer__container">
+                    <h1 class="offer_main_title">Technik</h1>
+                    <h2 class="offer_title">Интернет-магазин техники</h2>
+                    <p class="offer_price"></p>
+                    <button class="offer_btn btn">Оформить заказ</button>
+                </div>
+            </div>
+        </selection>
+        <selection class="main_selection features">
+            <div class="container">
+                <h2 class="features_title">Категории</h2>
+                <ul class="features_list">
+                    <li class="features_item card">
+                        <img src="img\camera.png" alt="-" class="card_picture">
+                        <h3 class="card_title">Малая бытовая техника</h3>
+                        <p class="card_description"></p>
+                    </li>
+                    <li class="features_item card">
+                        <img src="img\compect.png" alt="" class="card_picture">
+                        <h3 class="card_title">Встраиваемая бытовая техника</h3>
+                        <p class="card_description"></p>
+                    </li>
+                    <li class="features_item card"><img src="img\color.jpg" alt="" class="card_picture">
+                        <h3 class="card_title">Смартфоны</h3>
+                        <p class="card_description"></p>
+                    </li>
+                    <li class="features_item card">
+                        <img src="img\frame.png" alt="" class="card_picture">
+                        <h3 class="card_title">Аксессуары</h3>
+                        <p class="card_description"></p>
+                    </li>
+                    <li class="features_item card">
+                        <img src="img\line.png" alt="" class="card_picture">
+                        <h3 class="card_title">Ноутбуки</h3>
+                        <p class="card_description"></p>
+                    </li>
+                    <li class="features_item card"><img src="img\charger_magnetic.png" alt="" class="card_picture">
+                        <h3 class="card_title">Телевизоры</h3>
+                        <p class="card_description"></p>
+                    </li>
+                </ul>
+            </div>
+        </selection>
+        <selection class="main_selection order">
+            <div class="container">
+                <h2 class="order_title">оформить заказ</h2>
+            </div>
+            <form action="#" class="order_form form" id="form-order">
+                <fieldset class="form_box">
+                    <legend class="form_titile-box">Персональные данные</legend>
+
+                    <label for="fullName" class="form_label">ФИО<sup>*</sup></label>
+                    <input type="text" class="form_input" id="fullName" name="fullName" required>
+
+                    <label for="Phone" class="form_label">Телефон<sup>*</sup></label>
+                    <input type="text" class="form_input" id="Phone" name="Phone" required>
+
+                    <label for="mail" class="form_label">E-mail<sup>*</sup></label>
+                    <input type="mail" class="form_input" id="mail" name="mail" required>
+
+                </fieldset>
+                <fieldset class="form_box">
+                    <legend class="form_titile-box">Адрес доставки</legend>
+
+                    <label for="full" class="form_label">Город<sup>*</sup></label>
+                    <input type="text" class="form_input" id="full" name="full" required>
+
+                    <label for="Phon" class="form_label">Индекс<sup>*</sup></label>
+                    <input type="text" class="form_input" id="Phon" name="Phone" required>
+
+                    <label for="mai" class="form_label">Адрес<sup>*</sup></label>
+                    <input type="mail" class="form_input" id="mai" name="mai" required>
+                    
+                </fieldset>
+               
+                </form>
+                <button type="submit" class="form_submit btn" form="form-order">Оформить</button>
+            
+        </selection>
+    </main>
+    <footer class="footer"></footer>
+</body>
+</html>
